@@ -1,10 +1,10 @@
-﻿name: ' Update AL-Go System Files'
+name: ' Update AL-Go System Files'
 
 on:
   workflow_dispatch:
     inputs:
       templateUrl:
-        description: Template Repository URL (current is {TEMPLATEURL})
+        description: Template Repository URL (current is https://github.com/microsoft/AL-Go-PTE@main)
         required: false
         default: ''
       downloadLatest:
